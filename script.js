@@ -74,12 +74,17 @@ function desencriptar(stringDesencriptada){
 }
 
 
-function copiar(){
-    mensaje.select();
-    navigator.clipboard.writeText(mensaje.value)
+function copiar() {
+    var textoDesencriptado = mensaje.value;
+    textArea.value = textoDesencriptado;
+    textArea.select();
+    document.execCommand("copy");
     mensaje.value = "";
-    alert("Texto Copiado")
-}
-
+    alert("Copiaste el texto");
+  }
+  
+  
+  
+  
 
 

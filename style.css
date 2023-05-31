@@ -14,6 +14,7 @@
     width: 10%;
 }
 
+
 main{
     display: flex;
     margin-bottom: 10px;
@@ -66,6 +67,12 @@ main{
     height: 67px;
     margin-left: 30px;
     width: 328px;
+    transition: 1s all;
+}
+.btn-desencriptar:hover{
+    background: #0a3871;
+    color: #F3F5FC;
+    
 }
 
 .btn-encriptar {
@@ -76,6 +83,14 @@ main{
     cursor: pointer;
     height: 67px;
     width: 328px;
+    transition: 1s all;
+}
+
+.btn-encriptar:hover{
+    background: #F3F5FC;
+    color: #0a3871;
+    
+
 }
 
 .copiar {
@@ -88,6 +103,13 @@ main{
     margin-top: 565px;
     position: absolute;
     width: 336px;
+    transition: 1s all;
+}
+.copiar:hover{
+    background: #0a3871;
+    color: #d8dfe8;
+    transform: scale(1.15);
+
 }
 
 .informacion {
